@@ -5,22 +5,22 @@ cask "kairoa" do
   on_macos do
     on_intel do
       url "https://github.com/covoyage/kairoa-cli/releases/download/v#{version}/kairoa-cli_#{version}_darwin_x86_64.tar.gz"
-      sha256 "4ea5692927ca150e0c72041332c24955257a62475e309920a74c0fbdf1a60494"
+      sha256 "6de8c7f701cb8f16771ef93312bc0064d4842cb2722acf57482d12618b366814"
     end
     on_arm do
       url "https://github.com/covoyage/kairoa-cli/releases/download/v#{version}/kairoa-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "f1bf8348ffc7fc5052cb63b24a94290af9cffb29f87e272a8e6bfefb7d043067"
+      sha256 "55c00b85578cdbbe5ff61048624398bcd8226939ebc09200b569e08e589eecc4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/covoyage/kairoa-cli/releases/download/v#{version}/kairoa-cli_#{version}_linux_x86_64.tar.gz"
-      sha256 "79e63748c3ac5f6ad09148af0a40a52516c9ca48146d43e5a15e3449a327e4d1"
+      sha256 "ffbce4d94b66970f6776e90f1f98cd9e301f1bf3e805529e00179a139d01a741"
     end
     on_arm do
       url "https://github.com/covoyage/kairoa-cli/releases/download/v#{version}/kairoa-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "5e568bff20ce69866502a5c7d33619ded2e5a441e2e6ad03be60626bfae7833c"
+      sha256 "30d84781a0d0ecdf6508145af1eb366d6b667e226e1fa70ee31f447f49111613"
     end
   end
 
